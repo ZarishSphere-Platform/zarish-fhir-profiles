@@ -1,0 +1,36 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "zarish-patient",
+  "url": "http://zarishsphere.com/fhir/StructureDefinition/zarish-patient",
+  "name": "ZarishPatient",
+  "title": "Zarish Sphere Patient",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient",
+        "path": "Patient",
+        "short": "Zarish Sphere Patient"
+      },
+      {
+        "id": "Patient.extension:zarish-uid",
+        "path": "Patient.extension",
+        "sliceName": "zarish-uid",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://zarishsphere.com/fhir/StructureDefinition/zarish-uid"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

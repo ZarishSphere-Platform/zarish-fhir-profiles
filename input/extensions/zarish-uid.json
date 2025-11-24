@@ -1,0 +1,43 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "zarish-uid",
+    "url": "http://zarishsphere.com/fhir/StructureDefinition/zarish-uid",
+    "name": "ZarishUID",
+    "title": "Zarish Unique ID",
+    "status": "draft",
+    "fhirVersion": "4.0.1",
+    "kind": "complex-type",
+    "abstract": false,
+    "context": [
+        {
+            "type": "element",
+            "expression": "Patient"
+        }
+    ],
+    "type": "Extension",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "Extension",
+                "path": "Extension",
+                "short": "Zarish Unique ID"
+            },
+            {
+                "id": "Extension.url",
+                "path": "Extension.url",
+                "fixedUri": "http://zarishsphere.com/fhir/StructureDefinition/zarish-uid"
+            },
+            {
+                "id": "Extension.value[x]",
+                "path": "Extension.value[x]",
+                "type": [
+                    {
+                        "code": "string"
+                    }
+                ]
+            }
+        ]
+    }
+}
