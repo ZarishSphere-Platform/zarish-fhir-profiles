@@ -76,6 +76,10 @@ nav:
       - Administrative Profiles:
           - Zarish Practitioner: profiles/zarish-practitioner.md
           - Zarish Organization: profiles/zarish-organization.md
+  - Code Systems:
+      - Overview: codesystems/index.md
+  - Value Sets:
+      - Overview: valuesets/index.md
   - Extensions:
       - Overview: extensions/index.md
       - Bangladesh National ID: extensions/bd-national-id.md
