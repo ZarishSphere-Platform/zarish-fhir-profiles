@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://zarishsphere-platform.github.io/zarish-fhir-profiles/</loc>
+         <lastmod>2025-11-29</lastmod>
+    </url>
+    <url>
+         <loc>https://zarishsphere-platform.github.io/zarish-fhir-profiles/codesystems/</loc>
+         <lastmod>2025-11-29</lastmod>
+    </url>
+    <url>
+         <loc>https://zarishsphere-platform.github.io/zarish-fhir-profiles/profiles/zarish-patient/</loc>
+         <lastmod>2025-11-29</lastmod>
+    </url>
+    <url>
+         <loc>https://zarishsphere-platform.github.io/zarish-fhir-profiles/profiles/zarish-uid/</loc>
+         <lastmod>2025-11-29</lastmod>
+    </url>
+    <url>
+         <loc>https://zarishsphere-platform.github.io/zarish-fhir-profiles/valuesets/</loc>
+         <lastmod>2025-11-29</lastmod>
+    </url>
+</urlset>
